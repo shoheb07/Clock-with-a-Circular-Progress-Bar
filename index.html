@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Progress Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="clock-container">
+
+  <div class="circle">
+    <svg>
+      <circle cx="70" cy="70" r="60"></circle>
+      <circle cx="70" cy="70" r="60" id="hours"></circle>
+    </svg>
+    <div class="time" id="hh">00</div>
+    <p>Hours</p>
+  </div>
+
+  <div class="circle">
+    <svg>
+      <circle cx="70" cy="70" r="60"></circle>
+      <circle cx="70" cy="70" r="60" id="minutes"></circle>
+    </svg>
+    <div class="time" id="mm">00</div>
+    <p>Minutes</p>
+  </div>
+
+  <div class="circle">
+    <svg>
+      <circle cx="70" cy="70" r="60"></circle>
+      <circle cx="70" cy="70" r="60" id="seconds"></circle>
+    </svg>
+    <div class="time" id="ss">00</div>
+    <p>Seconds</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
